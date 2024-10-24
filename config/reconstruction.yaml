@@ -1,0 +1,14 @@
+reconstruction:
+  batch_size: 20
+  square_size: 40
+  whole_dim: 700
+  phase_dim: 400
+  distance: 30e-2
+  pixel_size: 12.5e-06
+  wl: 5.20e-07
+  intensity_mode: False
+  log_dir:  
+  ck_dir: 
+  detx:
+  dety:
+  checkpoint_path: 
