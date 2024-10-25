@@ -145,7 +145,6 @@ If you face GPU memory issues during training, reduce batch size or change model
 For UI.
 
 ### Scripts
-Here's a detailed description of the scripts you've listed, in English, with additional information:
 
 `Calibration.py` This script is responsible for training a phase using neural network to calibrate the system.
 
