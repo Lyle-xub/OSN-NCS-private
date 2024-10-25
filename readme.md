@@ -110,7 +110,7 @@ If you face GPU memory issues during training, reduce batch size or change model
 
 `has_func.py` Includes functions necessary for controlling a phase spatial light modulator (SLM). This file helps in adjusting and managing the phase modulation parameters for optical beam control.
 
-`net.py` Contains the model code required for BAT (a specific deep learning or image processing model, the exact purpose should be clarified). It defines the architecture, layers, and forward pass of the model.
+`net.py` Contains the model code required for BAT. It defines the architecture, layers, and forward pass of the model.
 
 `optical_network.py` Provides foundational code for the S2NN model, including code for visualizations. This file implements the structure of the neural network and allows for analyzing and visualizing results through graphical representations.
 
