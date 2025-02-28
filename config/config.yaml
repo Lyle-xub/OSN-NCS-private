@@ -1,0 +1,14 @@
+batch_size: 100
+sys_size: 500
+distance: 0.3
+pixel_size: 1.7e-05
+pad: 100
+wavelength: 5.20e-07
+approx: Fresnel
+amp_factor: 1.5
+depth: 3
+device: cpu
+epochs: 10
+lr: 0.01
+det_size: 20
+codesign: false

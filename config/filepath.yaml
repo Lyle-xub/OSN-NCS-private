@@ -1,0 +1,16 @@
+phase:
+- img/phase_0.png
+- img/phase_1.png
+- img/phase_2.png
+output:
+- img/mnist_1.png
+- img/mnist_2.png
+- img/mnist_3.png
+reconstruct_phase:
+- img/reconstruction/Phase1.bmp
+- img/reconstruction/Phase2.bmp
+- img/reconstruction/Phase3.bmp
+reconstruct_output:
+- img/reconstruction/Output1.png
+- img/reconstruction/Output2.png
+- img/reconstruction/Output3.png

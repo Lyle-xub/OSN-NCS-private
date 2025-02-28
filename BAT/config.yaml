@@ -1,0 +1,7 @@
+log_path: train1.log
+log_batch_num: 10
+train: bat
+unitary: True
+is_separable: False
+fusion: new
+phy: new
