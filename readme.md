@@ -60,8 +60,8 @@ Subsequent processing includes resizing `.png` images and generating `.hdf5` and
 This folder contains the code implementation for the BAT. 
 To start the training process for the BAT, use the command below:
 ``` 
-$ cd BAT
-$ python train_donn.py
+$  torchrun --standalone --nnodes=1 --nproc-per-node=1 train_donn.py
+
 ```
 This command will initiate the training script for the BAT using the specified configurations in config.yaml
 If you face GPU memory issues during training, reduce batch size or change model size.

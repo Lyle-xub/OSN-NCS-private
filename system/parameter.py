@@ -157,6 +157,7 @@ class ExpParams(BaseParams):
         self.det_y_loc = [coord[0] + pad for coord in ordered_coordinates]
 
         self.alpha = 0.5
+        self.beta = 1.0
         self.loss_slice = slice(
             self.core["network"]["whole_dim"] // 2 - self.core["network"]["phase_dim"] // 2,
             self.core["network"]["whole_dim"] // 2 + self.core["network"]["phase_dim"] // 2,
@@ -223,7 +224,8 @@ def config(type="sim"):
     parser.add_argument("--no_unitary", action="store_false", dest="unitary")
     parser.set_defaults(unitary=False)
     parser.add_argument("--fusion", type=str, default="new", help="Fusion type")
-    parser.add_argument("--alpha", type=float, help="Alpha value")
+    parser.add_argument("--alpha", type=float, default=0.4, help="Alpha value")
+    parser.add_argument("--beta", type=float, default=1.0, help="Beta value")
     parser.add_argument("--num_consumers", type=int, default=min(8, cpu_count()), help="Number of consumers")
     parser.add_argument("--array_size_events", type=int, default=int(1e8), help="Array size for events")
     parser.add_argument("--log_batch_num", type=int, help="Log every n batches")
